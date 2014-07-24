@@ -1,0 +1,14 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+# RewriteCond %{THE_REQUEST} '#'
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+AddType text/x-component .htc
+
+php_value max_execution_time 100

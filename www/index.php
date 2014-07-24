@@ -5,6 +5,17 @@
 	<title>Document</title>
 </head>
 <body>
+<?php
+require 'bootstrap.php';
+require 'controller.php';
+
+new bootstrap();
+
+
+
+
+
+ ?>
 
 </body>
 </html>
