@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+
 <?php
-require 'bootstrap.php';
-require 'controller.php';
+require 'Bootstrap.php';
+require 'Controller.php';
+require 'Database.php';
+require 'Config.php';
+require 'Model.php';
+require 'View.php';
 
 new bootstrap();
 
@@ -17,5 +15,3 @@ new bootstrap();
 
  ?>
 
-</body>
-</html>

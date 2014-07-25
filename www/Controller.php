@@ -15,6 +15,12 @@ class Controller
 
 	}
 
+    function getIndex() {
+
+    $Model= new Model;
+    $View = new View;
+
+    }
 
 
  ?>

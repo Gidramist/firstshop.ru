@@ -16,7 +16,7 @@ class Bootstrap
 
         switch ($url[0]) {
         	case 'index':
-        		# code...
+        		$Controller->getIndex();
         		break;
 
     		case 'goods':
